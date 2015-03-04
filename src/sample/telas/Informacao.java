@@ -18,9 +18,6 @@ public class Informacao extends Application {
     public void start(Stage palco) throws Exception {
         borderPane.paddingProperty().setValue(new Insets(10));
 
-
-
-
         palco.setScene(new Scene(borderPane, 1200, 680));
         palco.show();
 
